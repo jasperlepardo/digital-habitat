@@ -1,0 +1,27 @@
+{% assign form-name = form.name | split: " " | join: "-" | downcase %}
+<div class="form-row">
+  <div class="col-3">
+    <select class="form-control" id="{{ form-name }}-day" name="{{ form-name }}-day">
+      <option value="" selected="" disabled="">Day</option>
+      {% for item in site.data.list-value.day %}
+        <option value="{{ item.name }}">{{ item.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="col-5">
+    <select class="form-control" id="{{ form-name }}-month" name="{{ form-name }}-month">
+      <option value="" selected="" disabled="">Month</option>
+      {% for item in site.data.list-value.month %}
+        <option value="{{ item.value | default: item.name }}">{{ item.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="col-4">
+    <select class="form-control" id="{{ form-name }}-year" name="{{ form-name }}-year">
+      <option value="" selected="" disabled="">Year</option>
+      {% for item in site.data.list-value.year %}
+        <option value="{{ item.name }}">{{ item.name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+</div>

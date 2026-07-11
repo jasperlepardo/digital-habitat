@@ -1,0 +1,9 @@
+{% assign form-name = form.name | split: " " | join: "-" | downcase %}
+<div class="form-row">
+  <div class="col">
+    <input class="form-control" id="{{ form-name }}-first-name" name="{{ form-name }}-first-name" type="text" placeholder="First Name" />
+  </div>
+  <div class="col">
+    <input class="form-control" id="{{ form-name }}-last-name" name="{{ form-name }}-last-name" type="text" placeholder="Last Name" />
+  </div>
+</div>

@@ -1,0 +1,6 @@
+- name: Full Name
+  layout: horizontal
+  hasLabel: true
+  fields:
+    - type: name
+      name: Full Name

@@ -1,1 +1,3 @@
-<span class="form-helper">{{ include.form-helper-text }}</span>
+{% if field.helper %}
+  <span class="form-helper">{{ field.helper }}</span>
+{% endif %}

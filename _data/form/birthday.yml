@@ -1,0 +1,6 @@
+- name: Birthday
+  layout: horizontal
+  hasLabel: true
+  fields:
+    - type: birthday
+      name: Birthday

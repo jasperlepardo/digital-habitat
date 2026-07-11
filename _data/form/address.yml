@@ -1,0 +1,19 @@
+- name: Address
+  layout: horizontal
+  hasLabel: true
+  fields:
+    - type: text
+      name: Address Line 1
+    - type: text
+      name: Address Line 2
+    - type: text
+      name: Address Line 3
+    - type: text
+      name: City / Town
+    - type: select
+      name: Country
+      list-value: country
+    - type: text
+      name: State / Province / Region
+    - type: text
+      name: ZIP / Postal Code
