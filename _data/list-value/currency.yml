@@ -1,0 +1,20 @@
+- name: Philippine Peso
+  value: PHP
+
+- name: US Dollar
+  value: USD
+
+- name: Euro
+  value: EUR
+
+- name: British Pound
+  value: GBP
+
+- name: Australian Dollar
+  value: AUD
+
+- name: Japanese Yen
+  value: JPY
+
+- name: Singapore Dollar
+  value: SGD

@@ -1,0 +1,11 @@
+- name: Cash
+  value: cash
+
+- name: Credit Card
+  value: credit-card
+
+- name: Debit Card
+  value: debit-card
+
+- name: Bank Transfer
+  value: bank-transfer

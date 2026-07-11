@@ -5,9 +5,8 @@
   </div>
   <div class="media-content media-middle">
     <div class="media-body">
-      {% include components/molecules/textarea-field.html 
-        placeholder="Comments (Optional)"
-        hasLabel="no-label"
+      {% include components/atoms/fields/textarea.html
+        input-placeholder="Comments (Optional)"
       %}
       <a class="btn btn-success" href="">Approve</a>
       <a class="btn btn-danger" href="">Reject</a>
@@ -16,8 +15,8 @@
       <fieldset class="form-group">
         <label for="">Do you want to redirect to another manager</label>
         <div class="input-group">
-          {% include components/atoms/select.html 
-            placeholder="Select Manager"
+          {% include components/atoms/fields/select.html
+            input-placeholder="Select Manager"
           %}
           <span class="input-group-btn">
             <a class="btn btn-primary" href="">Redirect</a>

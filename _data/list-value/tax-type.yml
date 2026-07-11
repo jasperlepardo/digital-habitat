@@ -1,0 +1,11 @@
+- name: VAT (12%)
+  value: vat-12
+
+- name: Non-VAT
+  value: non-vat
+
+- name: Zero-rated
+  value: zero-rated
+
+- name: Exempt
+  value: exempt
