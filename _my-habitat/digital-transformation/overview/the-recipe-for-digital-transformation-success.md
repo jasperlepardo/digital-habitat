@@ -5,7 +5,7 @@ categories:
 title: The recipe for digital transformation success
 summary: Companies are integrating digital technologies into their operations to produce
   better business value and outcomes.
-image_url: "//assets1.dxc.technology/digital_transformation/images/dtc-related1.bw.jpg"
+image_url: "https://assets1.dxc.technology/digital_transformation/images/dtc-related1.bw.jpg"
 has_details: false
 author: ''
 date_published: ''

@@ -7,7 +7,7 @@ summary: Our Digital Applications DevSecOps services enable the changes needed i
   culture, practices and technology to accelerate DevSecOps adoption at scale. The
   services are the route to rapid delivery of high quality software that embeds data
   security in the process.
-image_url: "//assets1.dxc.technology/application_services/images/04-05_668x376_bw.jpg"
+image_url: "https://assets1.dxc.technology/application_services/images/04-05_668x376_bw.jpg"
 has_details: false
 author: ''
 date_published: ''

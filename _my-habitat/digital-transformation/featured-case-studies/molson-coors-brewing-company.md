@@ -5,7 +5,7 @@ categories:
 title: " Molson Coors Brewing Company"
 summary: Transforming legacy infrastructure while maintaining operations and advancing
   the business
-image_url: "//assets1.dxc.technology/digital_transformation/images/coors-bw.jpg"
+image_url: "https://assets1.dxc.technology/digital_transformation/images/coors-bw.jpg"
 has_details: false
 author: ''
 date_published: ''

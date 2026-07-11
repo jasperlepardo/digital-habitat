@@ -5,7 +5,7 @@ categories:
 title: " Digital deployed: Next-generation technologies"
 summary: DXC delivers world-class solutions to improve and optimize business processes.
   In this infographic, learn more about our digital capabilities.
-image_url: "//assets1.dxc.technology/digital_transformation/images/analytics_glasses-144560401-bw.jpg"
+image_url: "https://assets1.dxc.technology/digital_transformation/images/analytics_glasses-144560401-bw.jpg"
 has_details: false
 author: ''
 date_published: ''

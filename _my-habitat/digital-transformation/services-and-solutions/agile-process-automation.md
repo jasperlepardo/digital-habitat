@@ -6,7 +6,7 @@ title: " Agile Process Automation"
 summary: DXC Agile Process Automation combines cloud and robotic process automation
   with artificial intelligence to reduce disruptions, errors, operational risks and
   costs, enhancing business processes.
-image_url: "//assets1.dxc.technology/business_process_services/images/05-04_bw.jpg"
+image_url: "https://assets1.dxc.technology/business_process_services/images/05-04_bw.jpg"
 has_details: false
 author: ''
 date_published: ''
