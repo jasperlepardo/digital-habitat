@@ -1,0 +1,14 @@
+{% if include.data %}
+  {% assign contents = include.data %}
+{% elsif include.collection %}
+  {% assign contents = include.collection | sort: "order" | where: "categories", include.category %}
+{% endif %}
+
+{% if include.limit %}
+  {% assign contents = contents | slice: 0, include.limit %}
+{% endif %}
+
+{% for content in contents %}
+  {% include components/atoms/card.html content=content %}
+{% endfor %}
+<div class="spacer"></div>

@@ -8,12 +8,13 @@ hasSearchBar: false
 heading-title: Digital Transformation
 ---
 
-{% include components/cards.html
-  collection=site.my-habitat
-  category="digital_transformation_overview"
-  type="card-columns"
-  limit=3
-%}
+<div class="card-columns">
+  {% include components/molecules/cards.html
+    collection=site.my-habitat
+    category="digital_transformation_overview"
+    limit=3
+  %}
+</div>
 
 <div class="row card-section">
   <div class="container">
@@ -22,10 +23,9 @@ heading-title: Digital Transformation
       <a class="subheading-link" href="#">More</a>
     </div>
     <div class="row card-scrollable">
-      {% include components/cards.html
+      {% include components/molecules/cards.html
         collection=site.my-habitat
         category="digital_transformation_services_and_solutions"
-        type=""
       %}
     </div>
   </div>
@@ -38,10 +38,9 @@ heading-title: Digital Transformation
       <a class="subheading-link" href="#">More</a>
     </div>
     <div class="row card-scrollable">
-      {% include components/cards.html
+      {% include components/molecules/cards.html
         collection=site.my-habitat
         category="digital_transformation_featured_case_studies"
-        type=""
       %}
     </div>
   </div>
@@ -54,10 +53,9 @@ heading-title: Digital Transformation
       <a class="subheading-link" href="#">More</a>
     </div>
     <div class="row card-scrollable">
-      {% include components/cards.html
+      {% include components/molecules/cards.html
         collection=site.my-habitat
         category="digital_transformation_reports_and_collaterals"
-        type=""
       %}
     </div>
   </div>
