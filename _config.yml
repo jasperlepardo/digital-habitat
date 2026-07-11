@@ -30,6 +30,24 @@ sass:
     - global-builtin
     - color-functions
 
+# App appearance
+theme-color: "white"
+status-bar-style: "white"
+
+# Stylesheet (loads assets/css/<name>.css)
+stylesheet: dxc
+
+# Icons & fonts
+fontawesome: "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+material-icon: "https://fonts.googleapis.com/icon?family=Material+Icons"
+# google-font:
+
+# PWA
+isPWA: true
+
+# Page transitions (Swup) — uncomment to enable
+# swup-animation: "https://unpkg.com/swup@latest/dist/swup.min.js"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
