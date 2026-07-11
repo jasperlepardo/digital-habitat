@@ -1,8 +1,8 @@
 {% if include.hasFormIcon == "none" %}
-  {% include components/atoms/form/select.html %}
+  {% include components/atoms/fields/select.html %}
 {% else %}
   <div class="form-icon {{ incluce.form-icon-placement }}">
-    {% include components/atoms/form/select.html %}
-    {% include components/atoms/form/icon.html %}
+    {% include components/atoms/fields/select.html %}
+    {% include components/atoms/fields/icon.html %}
   </div>
 {% endif %}

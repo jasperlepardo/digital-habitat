@@ -1,12 +1,12 @@
 <div class="list-group-item list-group-item-action" id="{{ include.input-name }}">
   <div class="form-group row">
-    {% include components/atoms/form/label.html %}
+    {% include components/atoms/fields/label.html %}
     <div class="{{ include.input-size }}">
       <div class="list-group-item-view-mode">
-        {% include components/atoms/form/plaintext.html %}
+        {% include components/atoms/fields/plaintext.html %}
       </div>
       <div class="list-group-item-edit-mode">
-        {% include components/atoms/form/input.html 
+        {% include components/atoms/fields/input.html 
           form-layout="horizontal"
           isInputLarge=""
           isInputRequired=""
@@ -25,7 +25,7 @@
           hasFormHelper="none"
           form-helper-text=""
         %}
-        {% include components/atoms/form/input.html 
+        {% include components/atoms/fields/input.html 
           form-layout="horizontal"
           isInputLarge=""
           isInputRequired=""
@@ -44,7 +44,7 @@
           hasFormHelper="none"
           form-helper-text=""
         %}
-        {% include components/atoms/form/input.html 
+        {% include components/atoms/fields/input.html 
           form-layout="horizontal"
           isInputLarge=""
           isInputRequired=""
@@ -65,7 +65,7 @@
         %}
         <div class="form-row mt-2">
           <div class="col">
-            {% include components/atoms/form/input.html 
+            {% include components/atoms/fields/input.html 
               form-layout="horizontal"
               isInputLarge=""
               isInputRequired=""
@@ -86,7 +86,7 @@
             %}
           </div>
           <div class="col">
-            {% include components/atoms/form/input.html 
+            {% include components/atoms/fields/input.html 
               form-layout="horizontal"
               isInputLarge=""
               isInputRequired=""
@@ -109,7 +109,7 @@
         </div>
         <div class="form-row mt-2">
           <div class="col">
-            {% include components/atoms/form/datalist.html 
+            {% include components/atoms/fields/datalist.html 
               form-layout="horizontal"
               isInputLarge=""
               isInputRequired=""
@@ -130,7 +130,7 @@
             %}
           </div>
           <div class="col">
-            {% include components/atoms/form/input.html 
+            {% include components/atoms/fields/input.html 
               form-layout="horizontal"
               isInputLarge=""
               isInputRequired=""
@@ -153,7 +153,7 @@
         </div>
         {% if include.hasFormHelper == "none" %}
         {% else %}
-          {% include components/atoms/form/helper.html %}
+          {% include components/atoms/fields/helper.html %}
         {% endif %}
       </div>
     </div>

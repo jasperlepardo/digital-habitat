@@ -1,7 +1,7 @@
 <div class="form-group">
   {% if include.hasFormLabel == "no-form-label" %}
   {% else %}
-    {% include components/atoms/form/label.html %}
+    {% include components/atoms/fields/label.html %}
   {% endif %}
   <div class="{{ include.input-size}}">
     <div class="btn-group" data-toggle="buttons" style="width: 100%;">
@@ -14,7 +14,7 @@
     </div>
     {% if include.hasFormHelper == "no-form-helper" %}
     {% else %}
-      {% include components/atoms/form/helper.html %}
+      {% include components/atoms/fields/helper.html %}
     {% endif %}
     </div>
 </div>
