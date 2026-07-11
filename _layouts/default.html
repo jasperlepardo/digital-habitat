@@ -37,12 +37,5 @@ custom-stylesheet:
 </main>
 
 <footer class="fixed-bottom">
-  {% include components/molecules/nav.html
-    nav-type="nav-tabs"
-    isLarge=""
-    isStacked=""
-    isJustified="nav-fill"
-    list-value-name=site.data.navigation.global
-    hasIcon="false"
-  %}
+  {% include components/molecules/nav.html data=site.data.navigation.global %}
 </footer>

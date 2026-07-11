@@ -1,19 +1,17 @@
-- text: Habitat
-  icon: fas fa-home
-  icon-text: 
-  url: my-habitat/
+- class: nav-tabs nav-fill
+  menu:
+  - text: Habitat
+    icon: fas fa-home
+    url: my-habitat/
 
-- text: Pinboard
-  icon: fas fa-thumbtack
-  icon-text: 
-  url: pinboard.html
+  - text: Pinboard
+    icon: fas fa-thumbtack
+    url: pinboard.html
 
-- text: Network
-  icon: fas fa-user-friends
-  icon-text:
-  url: network.html
+  - text: Network
+    icon: fas fa-user-friends
+    url: network.html
 
-- text: Profile
-  icon: far fa-user-circle
-  icon-text:
-  url: profile.html
+  - text: Profile
+    icon: far fa-user-circle
+    url: profile.html
