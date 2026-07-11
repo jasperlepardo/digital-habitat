@@ -1,4 +1,5 @@
 - class: nav-tabs nav-fill
+  type:
   menu:
   - text: Habitat
     icon: fas fa-home

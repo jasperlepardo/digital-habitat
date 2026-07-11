@@ -1,0 +1,38 @@
+- name: Branch Settings
+  layout: horizontal
+  hasLabel: true
+  fields:
+    - type: text
+      name: Legal Business Name
+      helper: This will appear on Customer Invoices
+    - type: text
+      name: Branch Name
+      helper: This will appear on Online Booking and Automated Messages
+    - type: text
+      name: Login URL
+      placeholder: company-name.phollowup.com
+    - type: text
+      name: Time Zone
+    - type: select
+      name: Currency
+      list-value: currency
+    - type: divider
+    - type: text
+      name: Phone Number
+    - type: text
+      name: Email Address
+    - type: text
+      name: Address Line 1
+    - type: text
+      name: Address Line 2
+    - type: text
+      name: Address Line 3
+    - type: text
+      name: City / Town
+    - type: select
+      name: Country
+      list-value: country
+    - type: text
+      name: State / Province / Region
+    - type: text
+      name: ZIP / Postal Code

@@ -1,0 +1,20 @@
+- name: Create Account
+  layout:
+  hasLabel:
+  fields:
+    - type: text
+      name: Business Name
+      placeholder: Business Name Inc.
+    - type: name
+      name: Full Name
+    - type: text
+      name: Username
+      placeholder: your username
+    - type: email
+      name: Email
+      placeholder: name@company.com
+    - type: tel
+      name: Phone
+      placeholder: 0912 345 6789
+    - type: password
+      name: Choose a Password
