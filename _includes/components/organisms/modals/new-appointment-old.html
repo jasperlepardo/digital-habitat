@@ -6,15 +6,7 @@
         <button class="close" data-dismiss="modal" type="button">&times;</button>
       </div>
       <div class="modal-nav">
-        {% include components/molecules/nav.html
-          nav-type="nav-tabs"
-          isLarge=""
-          isStacked=""
-          isJustified=""
-          isResponsive="nav-tabs-responsive"
-          list-value-name=site.data.navigation.new-appointment-modal
-          hasIcon=""
-        %}
+        {% include components/molecules/nav.html data=site.data.navigation.new-appointment-modal %}
       </div>
       <div class="modal-body">
         <div class="tab-content">

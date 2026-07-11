@@ -8,16 +8,7 @@
       {% endif %}
       {% if include.hasCardHeaderTabs == "none" %}
       {% else %}
-        {% include components/molecules/nav.html
-          nav-type="nav-tabs"
-          isLarge=include.isCardHeaderTabsLarge
-          isStacked=include.isCardHeaderTabsStacked
-          isJustified=include.isJCardHeaderTabsustified
-          isCardHeaderTabs="card-header-tabs"
-          isResponsive=include.isCardHeaderTabsResponsive
-          list-value-name=include.card-header-tab-list-value-name
-          hasIcon=include.hasCardHeaderTabsIcon
-        %}
+        {% include components/molecules/nav.html data=include.card-header-tab-list-value-name %}
       {% endif %}
     </div>
   {% endif %}
